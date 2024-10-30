@@ -33,9 +33,9 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Atharva Kolekar",
+      "icon": "code",
+      "url": "https://athrva.in"
     },
     {
       "name": "Community",
