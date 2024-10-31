@@ -17,13 +17,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Contact",
+      "url": "mailto:hello@athrva.in"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Let's go",
+    "url": "https://app.athrva.in"
   },
   "tabs": [
     {
@@ -84,8 +84,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://twitter.com/Athrva_talks",
+    "github": "https://github.com/AtharvaKolekar",
+    "linkedin": "https://www.linkedin.com/in/atharva-kolekar"
   }
 }
