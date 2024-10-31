@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Atharva Kolekar",
+  "name": "Atharva Kolekar DevHub",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -22,8 +22,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Let's go",
-    "url": "https://app.athrva.in"
+    "name": "Hack me",
+    "url": "https://athrva.in/h4ck-me"
   },
   "tabs": [
     {
@@ -45,7 +45,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://blog.athrva.in"
     }
   ],
   "navigation": [
