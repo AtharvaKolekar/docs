@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Contact",
-      "url": "mailto:hello@athrva.in"
+      "url": "https://athrva.in/contact"
     }
   ],
   "topbarCtaButton": {
-    "name": "Hack me",
-    "url": "https://athrva.in/h4ck-me"
+    "name": "Dashboard",
+    "url": "https://athrva.in/dashboard"
   },
   "tabs": [
     {
