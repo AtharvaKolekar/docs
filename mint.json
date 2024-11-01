@@ -25,6 +25,9 @@
     "name": "Dashboard",
     "url": "https://athrva.in/dashboard"
   },
+  "primaryTab": {
+    "name": "Projects"
+  },
   "tabs": [
     {
       "name": "API Reference",
