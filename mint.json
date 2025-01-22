@@ -30,9 +30,25 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
+      "name": "Documentation",
+      "url": "docs"
+    },
+    {
+      "name": "Ethical Hacking",
+      "url": "hack"
+    },
+    {
+      "name": "Sitemap",
+      "url": "page"
+    },
+    {
+      "name": "Changelog",
+      "url": "changelog"
+    },
+    {
+      "name": "FAQs",
+      "url": "faqs"
+    },
   ],
   "anchors": [
     {
