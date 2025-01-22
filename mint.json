@@ -88,13 +88,13 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Kali Linux",
       "pages": [
-        "api-reference/introduction"
+        "hack/introduction"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Termux",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
