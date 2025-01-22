@@ -96,9 +96,9 @@
     {
       "group": "Termux",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "hack/endpoint/get",
+        "hack/endpoint/create",
+        "hack/endpoint/delete"
       ]
     }
   ],
