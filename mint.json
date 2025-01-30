@@ -1,6 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Atharva Kolekar DevHub",
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -17,29 +21,30 @@
   },
   "topbarLinks": [
     {
+      "name": "Status",
+      "url": "https://status.athrva.in"
+    },
+    {
       "name": "Contact",
       "url": "https://athrva.in/contact"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Go to console",
     "url": "https://athrva.in/dashboard"
   },
   "primaryTab": {
-    "name": "Docs"
+    "name": "Documentation"
   },
   "tabs": [
-    {
-      "name": "Documentation",
-      "url": "docs"
-    },
+
     {
       "name": "Ethical Hacking",
       "url": "hack"
     },
     {
       "name": "Sitemap",
-      "url": "page"
+      "url": "pages"
     },
     {
       "name": "Changelog",
@@ -52,18 +57,18 @@
   ],
   "anchors": [
     {
-      "name": "Atharva Kolekar",
+      "name": "Home",
       "icon": "house",
       "url": "https://athrva.in"
     },
     {
-      "name": "Community",
+      "name": "Slack",
       "icon": "slack",
       "url": "https://mintlify.com/community"
     },
     {
       "name": "Blog",
-      "icon": "newspaper",
+      "icon": "rss",
       "url": "https://blog.athrva.in"
     }
   ],
@@ -71,20 +76,20 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "docs/welcome",
+        "docs/quickstart",
+        "docs/development"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "DevKit Tools",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "docs/markdown",
+        "docs/code",
+        "docs/images",
+        "docs/settings",
+        "docs/navigation",
+        "docs/reusable-snippets"
       ]
     },
     {
@@ -99,6 +104,12 @@
         "hack/endpoint/get",
         "hack/endpoint/create",
         "hack/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Sitemap",
+      "pages": [
+        "pages/overview"
       ]
     }
   ],
