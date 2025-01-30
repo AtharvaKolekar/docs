@@ -19,6 +19,9 @@
       "to": "#07C983"
     }
   },
+  "background": {
+    "style": "windows"
+  },
   "topbarLinks": [
     {
       "name": "Status",
@@ -84,6 +87,7 @@
     {
       "group": "DevKit Tools",
       "pages": [
+        "docs/cors-anywhere",
         "docs/markdown",
         "docs/code",
         "docs/images",
