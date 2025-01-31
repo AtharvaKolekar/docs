@@ -1,37 +1,65 @@
 ---
 title: 'CORS Anywhere'
-description: 'Enable CORS Anywhere '
+description: 'Enable cross-origin requests to anywhere by acting as a proxy and adding CORS headers to responses.'
 hideApiMarker: true
 icon: 'face-smile'
 ---
-#### Endpoint URL `https://cors.athrva.in/`
 
+## Endpoint URL
+<Card title="https://cors.athrva.in/<url>" icon="bolt" href="https://status.athrva.in" horizontal ></Card>
 
+<a href="https://hopp.sh/r/vaIrYz2jT0LT"><img src="https://hopp.sh/badge.svg" alt="Run in Hoppscotch" noZoom /></a>
 
+## 🚀 Usage
 
-<a href="https://hopp.sh/r/4NdC0H36QBLv" target="_blank"><img src="https://hopp.sh/badge.svg" alt="Run in Hoppscotch" noZoom /></a>
+### 📜 Show API Help
+Displays help and usage instructions.  
+- **Endpoint:** `/`
+- **Method:** `ANY`
+- **Example:**
+```bash
+curl -X GET https://cors.athrva.in/ 
+```
 
-<Tip>
-### Usage:
-- https://cors.athrva.in/{your-url}
-- your-url is the host you want to request.
+### ❓ Check if CORS is needed
+This endpoint is served without CORS headers. It can be used to check if a request actually needs CORS.
+- **Endpoint:** `/iscorsneeded`
+- **Method:** `ANY`
+- **Example:**
+```bash
+curl -X GET https://cors.athrva.in/iscorsneeded 
+```
+- **Response:** no/yes
 
-</Tip>
+### 🔄 Proxy a Request with CORS
+- **Endpoint:** `/<url>`
+- **Method:** `GET`
+- **Example:**
+  ```bash
+  curl -X GET https://cors.athrva.in/https://example.com
+  ```
+- **Response:** Fetches `https://example.com` and returns the response with CORS headers added.
+
+## ⏳ Rate Limits
+- ⏱ **5 requests per 20 seconds per IP**
+- 🖥 **No limitations for localhost**
+
+## 📚 Additional Information
+For more details and source code, visit the [GitHub repository](https://github.com/AtharvaKolekar/cors-anywhere).
+
+## 🎯 Try It Out!  
+
+<iframe rounded 
+    src="https://hopp.sh/e/77unBPZn5bSh" 
+    className="w-full rounded-2xl"
+    height="500"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+></iframe>
+
 
 <Info>
-### Limits:
-- 5 requests per 20 seconds per IP
-- No limitation on localhost
+This API is intended **solely for ethical and educational purposes**. Any misuse, abuse, or unauthorized activity is strictly prohibited. 
 </Info>
-
-## 📖 Help Page  
-Provides information on how to use this service, including available endpoints and their functionality.  
-**Path**: `/`  
-
-## 🚫 CORS-Free Resource  
-A special endpoint that serves a response **without** CORS headers. This can be used to check how browsers handle requests to a resource that does not allow cross-origin access.  
-**Path**: `/iscorsneeded`  
-
-## 🔄 Proxy Request with CORS Headers  
-Allows you to make requests to any URL while ensuring that the response includes the necessary CORS headers. This enables cross-origin requests that would otherwise be blocked by browsers.  
-**Path**: `/<url>`  
